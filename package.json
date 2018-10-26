@@ -17,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://farwill.github.io/my-app",
+  "homepage": "https://my-app.telewill.com",
   "devDependencies": {
     "gh-pages": "^2.0.0"
   }
