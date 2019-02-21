@@ -6,7 +6,7 @@
     "ajv": "^6.5.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
@@ -17,8 +17,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://my-app.telewill.com",
+  "homepage": "https://farwill.github.io/my-app",
   "devDependencies": {
     "gh-pages": "^2.0.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
